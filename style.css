@@ -8,5 +8,12 @@ input {
     margin: 0 auto;
 }
 
+main {
+    text-align: center; /* For button (inline block elements) */
+}
 
+.searchbutton {
+    display: inline-block;
+    margin-top: 10px;
+}
 
