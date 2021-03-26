@@ -30,6 +30,6 @@ main {
     background: #0053ba;
 }
 
-nav ul {
+.unorderedlist {
     list-style-type:none;
 }
