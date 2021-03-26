@@ -17,6 +17,19 @@ main {
     margin-top: 10px;
 }
 
+.signin {
+    padding: 5px;
+    background-color: #1a73e8;
+    border-style: none;
+    color: white;
+    cursor: pointer;
+}
+
+.signin:hover,
+.signin:focus {
+    background: #0053ba;
+}
+
 nav ul {
     list-style-type:none;
 }
