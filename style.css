@@ -6,6 +6,8 @@ img {
 input {
     display: block;
     margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom:10px;
 }
 
 main {
@@ -15,6 +17,11 @@ main {
 .searchbutton {
     display: inline-block;
     margin-top: 10px;
+    background-color: #f8f8f8;
+    border: white;
+}
+.searchbutton:hover {
+    background-color:#c6c6c6;
 }
 
 .signin {
@@ -33,3 +40,6 @@ main {
 .unorderedlist {
     list-style-type:none;
 }
+
+
+
