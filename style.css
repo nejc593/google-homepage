@@ -7,12 +7,13 @@ input {
     display: block;
     margin: 0 auto;
     margin-top: 10px;
-    margin-bottom:10px;
+    margin-bottom: 10px;
     width: 30%;
 }
 
 main {
-    text-align: center; /* For button (inline block elements) */
+    text-align: center;
+    /* For button (inline block elements) */
 }
 
 .searchbutton {
@@ -21,8 +22,9 @@ main {
     background-color: #f8f8f8;
     border: white;
 }
+
 .searchbutton:hover {
-    background-color:#c6c6c6;
+    background-color: #c6c6c6;
 }
 
 .signin {
@@ -39,46 +41,58 @@ main {
 }
 
 nav ul {
-    list-style-type:none;
+    list-style-type: none;
 }
+
 nav ul a {
     text-decoration: none;
 
 }
+
 nav ul a:hover {
     text-decoration: underline;
-    
+
 }
+
 nav ul a:visited {
     text-decoration: none;
-    color:#000;
+    color: #000;
 }
+
 nav ul li {
     display: inline-block;
 }
+
 .listleft {
     float: left;
 }
+
 .listright {
     float: right;
 }
+
 main {
     clear: both;
 }
+
 footer ul {
     list-style-type: none;
 }
+
 footer ul a {
     text-decoration: none;
 }
+
 footer ul li {
     display: inline-block;
 }
+
 .footerlistleft {
-float: left;
+    float: left;
 }
+
 .footerlistright {
-float: right;
+    float: right;
 }
 
 footer {
