@@ -38,7 +38,7 @@ main {
     background: #0053ba;
 }
 
-.unorderedlist {
+nav ul {
     list-style-type:none;
 }
 nav ul a {
@@ -52,4 +52,16 @@ nav ul a:hover {
 nav ul a:visited {
     text-decoration: none;
     color:#000;
+}
+nav ul li {
+    display: inline-block;
+}
+.listleft {
+    float: left;
+}
+.listright {
+    float: right;
+}
+main {
+    clear: both;
 }
